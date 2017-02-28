@@ -1,13 +1,8 @@
-#contact
+.contact
 {
-  float: right;
-  padding: 40px;
+  text-align: right;
+  padding: 2.5em;
 }
-.email
-{
-  padding: 20px;
-}
-.phone
-{
-  padding: 20px;
+.contact span {
+  margin-left: 3em;
 }
