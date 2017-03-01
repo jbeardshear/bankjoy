@@ -15,10 +15,14 @@
 }
 
 body {
-  background-color: blue;
+  background-color: #24c6d8;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
