@@ -8,6 +8,11 @@
   color: white;
 }
 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('SourceSansPro-Light-webfont.woff2');
+}
+
 #logo > img {
   width: 240px;
   margin: auto;
@@ -15,10 +20,15 @@
 }
 
 body {
-  background-color: blue;
+  background-color: #24c6d8;
+  font-family: 'MyWebFont';
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
