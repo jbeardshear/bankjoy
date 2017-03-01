@@ -9,8 +9,18 @@
 }
 
 @font-face {
-  font-family: 'MyWebFont';
-  src: url('SourceSansPro-Light-webfont.woff2');
+  font-family: 'sans pro regular';
+  src: url('SourceSansPro-Regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'sans pro light';
+  src: url('SourceSansPro-Light-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'sans pro extralight';
+  src: url('SourceSansPro-ExtraLight-webfont.woff2') format('woff2');
 }
 
 #logo > img {
@@ -19,9 +29,32 @@
   display: block;
 }
 
+h1 {
+  display: block;
+  font-family: 'sans pro extralight';
+  font-size: 60px;
+  color: #fff;
+  margin: 50px auto 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-weight: 600px;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+}
+
 body {
-  background-color: #24c6d8;
-  font-family: 'MyWebFont';
+  background-image: url('https://bankjoy.com/assets/images/backgrounds/background.jpg');
+  font-family: 'sans pro regular';
+  font-size: 19;
+  font-weight: 300;
 }
 
 a {
