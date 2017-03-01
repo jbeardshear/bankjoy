@@ -5,4 +5,20 @@
 
 .contact span {
   margin-left: 3em;
+  color: white;
+}
+
+#logo > img {
+  width: 240px;
+  margin: auto;
+  display: block;
+}
+
+body {
+  background-color: blue;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
