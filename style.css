@@ -1,3 +1,36 @@
+.container {
+  position: relative;
+  height: 1500vh;
+}
+
+.background {
+  position: absolute;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-image: url('https://bankjoy.com/assets/images/backgrounds/background.jpg');
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.701961);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .contact {
   text-align: right;
   padding: 2.5em;
@@ -70,10 +103,10 @@ h2 {
 }
 
 body {
-  background-image: url('https://bankjoy.com/assets/images/backgrounds/background.jpg');
   font-family: 'sans pro regular';
   font-size: 19;
   font-weight: 300;
+  margin: 0;
 }
 
 a {
@@ -83,14 +116,14 @@ a {
 
 a:hover {
   color: blue;
+  cursor: pointer;
 }
 
 .phones {
-  width: 100%;
-  display: inline-block;
+  width: 70%;
   position: relative;
   height: 600px;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -98,21 +131,19 @@ a:hover {
 
 .phones #left {
   width: 310px;
-  z-index: -1;
   position: relative;
-  left: 70px;
+  right: -4%;
 }
 
 .phones #center {
   width: 330px;
-  z-index: 1;
   position: relative;
-  bottom: 10px;
+  z-index: 2;
+  top: -1%;
 }
 
 .phones #right {
   width: 310px;
-  z-index: -1;
   position: relative;
-  right: 70px;
+  left: -4%;
 }
